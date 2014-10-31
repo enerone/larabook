@@ -1,17 +1,17 @@
 <?php namespace Larabook\Users;
 
-use Eloquent;
-use Hash;
 use Illuminate\Auth\Reminders\RemindableInterface;
 use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Auth\UserInterface;
 use Illuminate\Auth\UserTrait;
+use Eloquent,Hash;
 use Larabook\Registration\Events\UserRegistered;
 use Laracasts\Commander\Events\EventGenerator;
 
 class User extends Eloquent implements UserInterface, RemindableInterface {
 
 	use UserTrait, RemindableTrait, EventGenerator;
+	//use EventGenerator;
 
 	protected $fillable = ['username', 'email', 'password'];
 
@@ -31,6 +31,10 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 
 	public function setPasswordAttribute($password) {
 		$this->attributes['password'] = Hash::make($password);
+	}
+
+	public function statuses(){
+		return $this->hasMany('Larabook\Statuses\Status');
 	}
 
 	/**

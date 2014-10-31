@@ -7,8 +7,9 @@ class SessionsController extends \BaseController {
 	private $signInForm;
 
 	function __construct(SignInForm $signInForm) {
-		$this->beforeFilter('guest');
 		$this->signInForm = $signInForm;
+		$this->beforeFilter('guest', ['except'=>'destroy']);
+		
 	}
 	/**
 	 * Show the form for sign in
@@ -25,14 +26,26 @@ class SessionsController extends \BaseController {
 	 * @return Response
 	 */
 	public function store() {
-		//fetch the form input
-		$input = Input::only('email', 'password');
-		//validate the form
-		////if invalid then go back
-		$this->signInForm->validate(Input::only('email', 'password'));
+		
+		$formData = Input::only('email', 'password');
+		$this->signInForm->validate($formData);
+		
+		if(Auth::attempt($formData)){
+			Flash::message('Welcome back!');
+			return Redirect::intended('/statuses');
+		}
 
-		//if is valid the try to sign in
-		//redirect to statuses
+
+
+	}
+/**
+ * Log user out of larabook
+ */
+	public function destroy(){
+		Auth::logout();
+
+		Flash::message('You have now been logged out.');
+		return Redirect::home();
 	}
 
 }

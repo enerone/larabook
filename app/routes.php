@@ -43,7 +43,20 @@ Route::post('login', [
 	'uses' => 'SessionsController@store'
 ]);
 
+Route::get('logout',[
+	'as' => 'logout_path',
+	'uses' => 'SessionsController@destroy'
+	]);
+
+
 /**
  * Statuses
  */
-Route::get('statuses', 'StatusController@index');
+Route::get('statuses', [
+	'as'=>'statuses_path',
+	'uses'=>'StatusController@index'
+	]);
+Route::post('statuses',[
+	'as'=>'statuses_path',
+	'uses'=>'StatusController@store'
+	]);
