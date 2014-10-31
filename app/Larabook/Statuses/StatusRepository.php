@@ -6,9 +6,9 @@ class StatusRepository {
 
 
 
-    public function getAllForUser(User $user){
-        dd($user);
-        return $user->statuses;
+    public function getAllForUser(User $user)
+    {
+        return $user->statuses()->with('user')->latest()->get();
     }
     /**
      * Save a new status for user
@@ -27,5 +27,7 @@ class StatusRepository {
 
 
     }
+
+
 
 }
