@@ -1182,3 +1182,31 @@ Stack trace:
 #19 {main} [] []
 [2014-10-31 18:24:55] local.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
 [2014-10-31 18:25:01] local.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 13:08:04] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 13:08:04] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 13:08:04] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 13:08:04] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 13:08:04] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 13:08:04] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 13:08:05] testing.INFO: Larabook.Registration.Events.UserRegistered was fired. [] []
+[2014-11-04 13:08:05] testing.INFO: Larabook.Registration.Events.UserRegistered was fired. [] []
+[2014-11-04 13:08:05] testing.INFO: Larabook.Registration.Events.UserRegistered was fired. [] []
+[2014-11-04 13:08:05] testing.INFO: Larabook.Registration.Events.UserRegistered was fired. [] []
+[2014-11-04 14:38:08] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 14:38:08] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 14:38:08] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 14:38:08] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 14:38:08] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 14:38:08] testing.INFO: Larabook.Statuses.Events.StatusWasPublished was fired. [] []
+[2014-11-04 14:38:09] testing.INFO: Larabook.Registration.Events.UserRegistered was fired. [] []
+[2014-11-04 14:38:09] testing.INFO: Larabook.Registration.Events.UserRegistered was fired. [] []
+[2014-11-04 14:38:09] testing.INFO: Larabook.Registration.Events.UserRegistered was fired. [] []
+[2014-11-04 14:38:09] testing.INFO: Larabook.Registration.Events.UserRegistered was fired. [] []
+[2014-11-04 15:01:01] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in /home/vagrant/code/larabook/app/storage/views/a0ef4878c6dcf0d9773a56903e0ffbae:25
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-04 15:02:14] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in /home/vagrant/code/larabook/app/storage/views/a0ef4878c6dcf0d9773a56903e0ffbae:27
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

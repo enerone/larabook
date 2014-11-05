@@ -8,7 +8,8 @@ class StatusRepository {
 
     public function getAllForUser(User $user)
     {
-        return $user->statuses()->with('user')->latest()->get();
+      //  return $user->statuses()->with('user')->latest()->get();
+        return $user->statuses()->get();
     }
     /**
      * Save a new status for user

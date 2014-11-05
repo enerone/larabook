@@ -35,6 +35,7 @@ return array(
     'Math' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
     'Laracasts\\Validation' => array($vendorDir . '/laracasts/validation/src'),
     'Laracasts\\TestDummy' => array($vendorDir . '/laracasts/testdummy/src'),
+    'Laracasts\\Presenter' => array($vendorDir . '/laracasts/presenter/src'),
     'Laracasts\\Flash' => array($vendorDir . '/laracasts/flash/src'),
     'Laracasts\\Commander' => array($vendorDir . '/laracasts/commander/src'),
     'Jeremeamia\\SuperClosure' => array($vendorDir . '/jeremeamia/SuperClosure/src'),
