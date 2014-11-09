@@ -113,6 +113,16 @@ class HttpCommandExecutor implements WebDriverCommandExecutor {
   public function __construct($url) {
     $this->url = $url;
     $this->curl = curl_init();
+
+    // Get credentials from $url (if any)
+    $matches = null;
+    if (preg_match("/^(https?:\/\/)(.*):(.*)@(.*?)/U", $url, $matches)) {
+      $this->url = $matches[1].$matches[4];
+      $auth_creds = $matches[2].":".$matches[3];
+      curl_setopt($this->curl, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
+      curl_setopt($this->curl, CURLOPT_USERPWD, $auth_creds);
+    }
+
     curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($this->curl, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt(
@@ -123,14 +133,15 @@ class HttpCommandExecutor implements WebDriverCommandExecutor {
         'Accept: application/json',
       )
     );
-    $this->setTimeout(300000);
+    curl_setopt($this->curl, CURLOPT_TIMEOUT_MS, 300000);
+    $this->setConnectionTimeout(300000);
   }
 
   /**
    * @param int $timeout
    * @return HttpCommandExecutor
    */
-  public function setTimeout($timeout) {
+  public function setConnectionTimeout($timeout) {
     // There is a PHP bug in some versions which didn't define the constant.
     curl_setopt($this->curl, /* CURLOPT_CONNECTTIMEOUT_MS */ 156, $timeout);
     return $this;
@@ -173,7 +184,16 @@ class HttpCommandExecutor implements WebDriverCommandExecutor {
     }
 
     curl_setopt($this->curl, CURLOPT_URL, $this->url . $url);
-    curl_setopt($this->curl, CURLOPT_CUSTOMREQUEST, $http_method);
+
+    // https://github.com/facebook/php-webdriver/issues/173
+    switch ($command->getName()) {
+      case DriverCommand::NEW_SESSION:
+        curl_setopt($this->curl, CURLOPT_POST, 1);
+        break;
+      default:
+        curl_setopt($this->curl, CURLOPT_CUSTOMREQUEST, $http_method);
+    }
+
     $encoded_params = null;
     if ($http_method === 'POST' && $params && is_array($params)) {
       $encoded_params = json_encode($params);

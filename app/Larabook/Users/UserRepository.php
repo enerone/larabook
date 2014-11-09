@@ -10,4 +10,23 @@ class UserRepository {
 	public function save(User $user) {
 		return $user->save();
 	}
+
+
+    public function getPaginated($howMany=25){
+
+        return User::orderBy('username','asc')->paginate($howMany);
+
+    }
+
+    /**
+     * Fetch a user by username
+     * @param $username
+     * @return mixed
+     */
+    public function findByUsername($username){
+        return User::with(['statuses' => function($query)
+            {
+            $query->latest();
+        }])->whereUsername($username)->first();
+    }
 }
