@@ -74,5 +74,17 @@ Route::get('@{username}',[
     'uses' => 'UsersController@show'
 ]);
 
+/**
+ * Follows
+ */
 
+Route::post('follows', [
+   'as' => 'follows_path',
+    'uses' => 'FollowsController@store'
+]);
+
+Route::post('follows/{id}', [
+    'as' => 'follow_path',
+    'uses' => 'FollowsController@destroy'
+]);
 

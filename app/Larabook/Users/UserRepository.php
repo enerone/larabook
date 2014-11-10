@@ -29,4 +29,22 @@ class UserRepository {
             $query->latest();
         }])->whereUsername($username)->first();
     }
+
+    /**
+     * Find the user by their id
+     *
+     * @param $id
+     * @return mixed
+     */
+    public function findById($id)
+    {
+        return User::findOrFail($id);
+    }
+
+    public function follow($userIdToFollow, User $user)
+    {
+       return $user->follows()->attach($userIdToFollow);
+    }
+
+
 }
