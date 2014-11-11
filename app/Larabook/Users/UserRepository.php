@@ -41,10 +41,28 @@ class UserRepository {
         return User::findOrFail($id);
     }
 
+    /**
+     * follow a larabook user
+     *
+     * @param $userIdToFollow
+     * @param User $user
+     * @return mixed
+     */
     public function follow($userIdToFollow, User $user)
     {
-       return $user->follows()->attach($userIdToFollow);
+       return $user->followedUsers()->attach($userIdToFollow);
     }
 
+    /**
+     * Unfollow a laravel user
+     *
+     * @param $userIdToUnfollow
+     * @param User $user
+     * @return mixed
+     */
+    public function unfollow($userIdToUnfollow, User $user)
+    {
+        return $user->followedUsers()->detach($userIdToUnfollow);
+    }
 
 }
