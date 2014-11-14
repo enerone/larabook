@@ -1,6 +1,7 @@
 <?php
 
 use Larabook\Forms\SignInForm;
+use Laracasts\Flash\Flash;
 
 class SessionsController extends \BaseController {
 
@@ -29,12 +30,15 @@ class SessionsController extends \BaseController {
 		
 		$formData = Input::only('email', 'password');
 		$this->signInForm->validate($formData);
-		
+
 		if(!Auth::attempt($formData)){
+
             Flash::message('We were unable to sign you in. Please check your credentials and try again!');
-            return Redirect::back()->with_Input();
+
+            return Redirect::back();
         }
 		Flash::message('Welcome back!');
+
 		return Redirect::intended('/statuses');
 
 

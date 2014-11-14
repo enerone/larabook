@@ -1,62 +1,25 @@
-body { 
-	padding-top: 70px; 
+@import 'modules/status';
+@import 'modules/button';
+@import 'modules/nav';
+@import 'pages/users';
+body {
+	padding-top: 80px;
+    background-color: rgb(240,240,240);
+    font-family: 'Roboto', sans-serif;
 	
 	}
 .container h1:first-of-type {
 	margin-top: 0;
 }
 
-.nav-gravatar{
-  float: left;
-  position: relative;
-  top:-6px;
-  left:-8px;
-  border: 1 solid #555;
-}
 
-
-//The "Publish Status" area
-.status-post{
-  border:1px solid #e3e3e3;
-  background:white;
-  margin-bottom: 3em;
-  padding:0;
-  textarea{
-    border:none;
-    &:focus{
-      box-shadow:none;
-    }
-  }
-  .status-post-submit {
-    border-top: 1px solid #e9e9e9;
-    padding: .5em 1em;
-    margin-bottom: 0;
-    overflow: hidden;
-    .btn{
-      float: right;
-    }
-  }
-}
-
-
-
-
-//each individual status
-.users{
-  margin-bottom: 3em;
-}
-.status-media{
-  border: 1px solid #e3e3e3;
-  background: white;
-  padding: 1em;
-  margin-bottom: 2em;
-}
-
-// Users list
-.user-block {
+.page-header{
   text-align: center;
-  .avatar{
-    margin: auto;
-    width:70px;
-  }
+  margin-bottom: 1em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ddd;
 }
+
+
+
+

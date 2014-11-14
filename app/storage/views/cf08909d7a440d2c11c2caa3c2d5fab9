@@ -19,6 +19,8 @@
             <div class="form-group">
                 <?php echo Form::submit('Sign In', ['class'=>'btn btn-primary']); ?>
 
+                <?php echo link_to('/password/remind', 'Reset Your Password'); ?>
+
             </div>
         <?php echo Form::close(); ?>
 
