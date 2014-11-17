@@ -18,7 +18,7 @@ class StatusRepository {
 
         $userIds[] = $user->id;
 
-        $result = Status::whereIn('user_id', $userIds)->latest()->get();
+        $result = Status::with('comments')->whereIn('user_id', $userIds)->latest()->get();
 
         return $result;
     }
@@ -38,10 +38,14 @@ class StatusRepository {
             ->statuses()
             ->save($status);
 
-
-
     }
 
+    public function leaveComment($userId, $statusId, $body)
+    {
+        $comment = Comment::leave($body, $statusId);
+
+        User::findOrFail($userId)->comments()->save($comment);
+    }
 
 
 }

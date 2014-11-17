@@ -5,23 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e631e818-38e1-44f0-afef-a60d532a2bdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/modules/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/modules/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/modules/_status.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/sass/pages/_users.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/password/remind.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/password/reset.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SessionsController.php" afterPath="$PROJECT_DIR$/app/controllers/SessionsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Larabook/Statuses/Comment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/statuses/partials/comments.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/views/639049048788cec14076aa3566565d9a" afterPath="$PROJECT_DIR$/app/storage/views/639049048788cec14076aa3566565d9a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ControllerGeneratorCommand.php" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ControllerGeneratorCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/GeneratorCommand.php" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/GeneratorCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ModelGeneratorCommand.php" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ModelGeneratorCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/tests/stubs/Order.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/stubs/Order.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/tests/stubs/OrdersController.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/stubs/OrdersController.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/PublishTemplatesCommand.php" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/PublishTemplatesCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/tests/stubs/RecentOrdersTableSeeder.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/tests/stubs/RecentOrdersTableSeeder.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ResourceGeneratorCommand.php" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/Commands/ResourceGeneratorCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Larabook/Statuses/Status.php" afterPath="$PROJECT_DIR$/app/Larabook/Statuses/Status.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php" afterPath="$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Larabook/Users/User.php" afterPath="$PROJECT_DIR$/app/Larabook/Users/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/modules/_nav.scss" afterPath="$PROJECT_DIR$/app/assets/sass/modules/_nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/modules/_status.scss" afterPath="$PROJECT_DIR$/app/assets/sass/modules/_status.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/views/cf08909d7a440d2c11c2caa3c2d5fab9" afterPath="$PROJECT_DIR$/app/storage/views/cf08909d7a440d2c11c2caa3c2d5fab9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/create.blade.php" afterPath="$PROJECT_DIR$/app/views/sessions/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/larabook.iml" afterPath="$PROJECT_DIR$/.idea/larabook.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/config/config.php" afterPath="$PROJECT_DIR$/vendor/way/generators/src/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/controller.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/controller.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/scaffolding/controller.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/scaffolding/controller.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/default.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/default.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/app/storage/logs/laravel.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/sass/main.scss" afterPath="$PROJECT_DIR$/app/assets/sass/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/model.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/model.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/scaffolding/model.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/scaffolding/model.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/readme.md" afterPath="$PROJECT_DIR$/vendor/way/generators/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/seed.txt" afterPath="$PROJECT_DIR$/vendor/way/generators/src/Way/Generators/templates/seed.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/statuses/partials/status.blade.php" afterPath="$PROJECT_DIR$/app/views/statuses/partials/status.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="larabook.iws" />
@@ -45,38 +62,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/sass/main.scss">
+      <file leaf-file-name="FollowsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/FollowsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="8" selection-start="173" selection-end="173" vertical-scroll-proportion="-1.5365853" vertical-offset="0" max-vertical-offset="558">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="864">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_users.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/sass/pages/_users.scss">
+      <file leaf-file-name="status.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/statuses/partials/status.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="113" selection-end="113" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="288">
+            <state line="23" column="22" selection-start="772" selection-end="772" vertical-scroll-proportion="0.7319778" vertical-offset="18" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/sass/modules/_nav.scss">
+      <file leaf-file-name="StatusesController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/StatusesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="2" selection-start="165" selection-end="165" vertical-scroll-proportion="0.2862191" vertical-offset="0" max-vertical-offset="702">
+            <state line="33" column="74" selection-start="627" selection-end="694" vertical-scroll-proportion="9.333333" vertical-offset="756" max-vertical-offset="2214">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_button.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/sass/modules/_button.scss">
+      <file leaf-file-name="CommentsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/CommentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="40" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.6923077" vertical-offset="0" max-vertical-offset="162">
-              <folding />
+            <state line="18" column="44" selection-start="433" selection-end="433" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="558">
+              <folding>
+                <element signature="e#6#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +103,52 @@
       <file leaf-file-name="_status.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/sass/modules/_status.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="35" selection-start="932" selection-end="932" vertical-scroll-proportion="-2.9230769" vertical-offset="928" max-vertical-offset="1602">
+            <state line="91" column="21" selection-start="1404" selection-end="1404" vertical-scroll-proportion="-13.777778" vertical-offset="1266" max-vertical-offset="1890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/statuses/partials/comments.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="78" selection-start="161" selection-end="161" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeaveCommentOnStatusCommand.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/LeaveCommentOnStatusCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="3.2962964" vertical-offset="125" max-vertical-offset="666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeaveCommentOnStatusCommandHandler.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/LeaveCommentOnStatusCommandHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="24" selection-start="570" selection-end="570" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="594">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="62" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-18.296297" vertical-offset="334" max-vertical-offset="1008">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/Comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="-10.962963" vertical-offset="64" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -108,15 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/statuses/partials/publish-status-form.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/statuses/index.blade.php" />
-        <option value="$PROJECT_DIR$/tests/_support/FunctionalHelper.php" />
-        <option value="$PROJECT_DIR$/tests/functional/ProfileCept.php" />
-        <option value="$PROJECT_DIR$/tests/fixtures.yml" />
-        <option value="$PROJECT_DIR$/app/controllers/StatusController.php" />
-        <option value="$PROJECT_DIR$/app/views/statuses/partials/statuses.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/users/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Larabook/Users/FollowUserCommand.php" />
         <option value="$PROJECT_DIR$/app/Larabook/Users/FollowUserCommandHandler.php" />
         <option value="$PROJECT_DIR$/app/controllers/FollowersController.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_11_10_144429_create_users_table.php" />
@@ -127,17 +182,14 @@
         <option value="$PROJECT_DIR$/app/Larabook/Users/UnfollowUserCommandHandler.php" />
         <option value="$PROJECT_DIR$/app/controllers/FollowsController.php" />
         <option value="$PROJECT_DIR$/app/Larabook/Users/UnfollowUserCommand.php" />
-        <option value="$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php" />
         <option value="$PROJECT_DIR$/app/Larabook/Users/UserPresenter.php" />
         <option value="$PROJECT_DIR$/app/views/users/show.blade.php" />
         <option value="$PROJECT_DIR$/tests/functional/FollowingCept.php" />
         <option value="$PROJECT_DIR$/tests/integration/Users/UserRepositoryTest.php" />
         <option value="$PROJECT_DIR$/app/Larabook/Users/FollowableTrait.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/StatusesTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/views/statuses/partials/status.blade.php" />
         <option value="$PROJECT_DIR$/app/views/users/partials/follow-form.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
-        <option value="$PROJECT_DIR$/app/Larabook/Users/User.php" />
         <option value="$PROJECT_DIR$/app/Larabook/Users/UserRepository.php" />
         <option value="$PROJECT_DIR$/app/Larabook/Mailers.php" />
         <option value="$PROJECT_DIR$/app/Larabook/Mailer.php" />
@@ -147,7 +199,6 @@
         <option value="$PROJECT_DIR$/app/config/mail.php" />
         <option value="$PROJECT_DIR$/app/Larabook/Mailers/UserMailer.php" />
         <option value="$PROJECT_DIR$/app/storage/logs/laravel.log" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/password/remind.blade.php" />
         <option value="$PROJECT_DIR$/app/views/password/reset.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/RemindersController.php" />
@@ -155,10 +206,23 @@
         <option value="$PROJECT_DIR$/app/controllers/RegistrationController.php" />
         <option value="$PROJECT_DIR$/app/controllers/SessionsController.php" />
         <option value="$PROJECT_DIR$/app/assets/sass/modules/_button.scss" />
-        <option value="$PROJECT_DIR$/app/assets/sass/modules/_status.scss" />
         <option value="$PROJECT_DIR$/app/assets/sass/pages/_users.scss" />
         <option value="$PROJECT_DIR$/app/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/app/assets/sass/modules/_nav.scss" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_11_17_114921_create_comments_table.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Users/User.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/way/generators/src/config/config.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/Status.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/LeaveCommentOnStatusCommandHandler.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/Comment.php" />
+        <option value="$PROJECT_DIR$/app/controllers/CommentsController.php" />
+        <option value="$PROJECT_DIR$/app/assets/sass/modules/_status.scss" />
+        <option value="$PROJECT_DIR$/app/views/statuses/partials/comments.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/statuses/partials/status.blade.php" />
       </list>
     </option>
   </component>
@@ -226,6 +290,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="way" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="way" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="way" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -262,7 +418,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statuses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,11 +440,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
+              <option name="myItemId" value="statuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,6 +506,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -350,7 +554,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,7 +569,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="SearchEverywhereHistory" value="lara&#10;registr&#10;sessionsC&#10;sessions/cre&#10;see&#10;laravel.log&#10;reminder.bla&#10;reminders&#10;register&#10;emailno&#10;registeruser&#10;registration&#10;user.&#10;userrep&#10;userre&#10;follow&#10;status.b&#10;statusesta&#10;view.php&#10;usersta&#10;user&#10;it_gets_all_statuses_for_a_user&#10;following&#10;follo&#10;userpre&#10;show&#10;followsc&#10;FOLLOW&#10;STATUSR&#10;users/sh&#10;follow-form&#10;nav.&#10;statuses&#10;generate&#10;routes&#10;Users/sh&#10;sessions/cr&#10;compileFo&#10;Users/s&#10;route&#10;nav.bl&#10;UserR&#10;StatusC&#10;UserRe&#10;choose fields&#10;UserCon&#10;compo&#10;fu&#10;publ&#10;st" />
+    <property name="SearchEverywhereHistory" value="status.bla&#10;user&#10;lara&#10;registr&#10;sessionsC&#10;sessions/cre&#10;see&#10;laravel.log&#10;reminder.bla&#10;reminders&#10;register&#10;emailno&#10;registeruser&#10;registration&#10;user.&#10;userrep&#10;userre&#10;follow&#10;status.b&#10;statusesta&#10;view.php&#10;usersta&#10;it_gets_all_statuses_for_a_user&#10;following&#10;follo&#10;userpre&#10;show&#10;followsc&#10;FOLLOW&#10;STATUSR&#10;users/sh&#10;follow-form&#10;nav.&#10;statuses&#10;generate&#10;routes&#10;Users/sh&#10;sessions/cr&#10;compileFo&#10;Users/s&#10;route&#10;nav.bl&#10;UserR&#10;StatusC&#10;UserRe&#10;choose fields&#10;UserCon&#10;compo&#10;fu&#10;publ" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -441,7 +645,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19772728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="696" y="60" width="288" height="926" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20075758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="696" y="60" width="288" height="926" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969134" sideWeight="0.3159091" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -459,26 +663,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969134" sideWeight="0.3159091" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969134" sideWeight="0.6840909" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21755725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="696" y="60" width="288" height="926" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -498,97 +682,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/StatusesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="7" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-4.2280703" vertical-offset="1289" max-vertical-offset="2214">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/PublishStatusCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/PublishStatusCommandHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="690" selection-end="692" vertical-scroll-proportion="0.68110234" vertical-offset="140" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="373" selection-end="373" vertical-scroll-proportion="0.44981414" vertical-offset="46" max-vertical-offset="936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/Status.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.0740743" vertical-offset="110" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Larabook/Users/UserPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="36" selection-start="666" selection-end="666" vertical-scroll-proportion="0.6802842" vertical-offset="139" max-vertical-offset="702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/functional/FollowingCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="444" selection-end="444" vertical-scroll-proportion="0.76731795" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fixtures.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/functional.suite.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="62" selection-start="258" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration.suite.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/IntegrationHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/UnitHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_support/FunctionalHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="589" selection-end="589" vertical-scroll-proportion="0.330855" vertical-offset="254" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration/Status/StatusRepositoryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="378" selection-end="378" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="1278" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration/IntegrationTester.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36144">
-          <folding>
-            <element signature="e#215#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Larabook/Users/FollowableTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="65" selection-end="65" vertical-scroll-proportion="0.12788633" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="51" selection-start="398" selection-end="398" vertical-scroll-proportion="0.38365898" vertical-offset="0" max-vertical-offset="792" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="1" selection-start="393" selection-end="393" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="396" />
@@ -599,11 +692,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.18294849" vertical-offset="103" max-vertical-offset="666" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/statuses/partials/status.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="338" selection-end="338" vertical-scroll-proportion="0.28774422" vertical-offset="0" max-vertical-offset="563" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/StatusesTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="50" selection-start="456" selection-end="456" vertical-scroll-proportion="0.41563055" vertical-offset="0" max-vertical-offset="563" />
@@ -611,9 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="377" selection-end="377" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="18" column="28" selection-start="377" selection-end="377" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/Users/UserRepositoryTest.php">
@@ -635,100 +721,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Larabook/Registration/RegisterUserCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="272" selection-end="272" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="396">
-          <folding />
-        </state>
+        <state line="16" column="1" selection-start="272" selection-end="272" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="396" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/emails/registration/confirm.mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Larabook/Mailers/Mailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="49" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="594">
-          <folding />
-        </state>
+        <state line="20" column="49" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="594" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Larabook/Providers/EventsServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="378">
-          <folding />
-        </state>
+        <state line="8" column="36" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="378" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Larabook/Handlers/EmailNotifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="52" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="414">
-          <folding />
-        </state>
+        <state line="13" column="52" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="414" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Larabook/Mailers/UserMailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="299" selection-end="299" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
+        <state line="13" column="2" selection-start="299" selection-end="299" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/functional/SignInCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="214" selection-end="214" vertical-scroll-proportion="0.30111524" vertical-offset="0" max-vertical-offset="538">
-          <folding />
-        </state>
+        <state line="9" column="21" selection-start="214" selection-end="214" vertical-scroll-proportion="0.30111524" vertical-offset="0" max-vertical-offset="538" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="6" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.7033748" vertical-offset="648" max-vertical-offset="2340">
-          <folding />
-        </state>
+        <state line="58" column="6" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.7033748" vertical-offset="648" max-vertical-offset="2340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/emails/auth/reminder.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.44522968" vertical-offset="0" max-vertical-offset="566">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.44522968" vertical-offset="0" max-vertical-offset="566" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/password/remind.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="632" selection-end="656" vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
+        <state line="23" column="5" selection-start="632" selection-end="656" vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="522" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/password/reset.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-22.666666" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Larabook/Users/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1702" selection-end="1702" vertical-scroll-proportion="-17.25926" vertical-offset="740" max-vertical-offset="1314">
-          <folding />
-        </state>
+        <state line="34" column="5" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-22.666666" vertical-offset="0" max-vertical-offset="720" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laracasts/validation/src/Laracasts/Validation/FormValidator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="20" selection-start="656" selection-end="656" vertical-scroll-proportion="-7.296296" vertical-offset="451" max-vertical-offset="1908">
-          <folding />
-        </state>
+        <state line="37" column="20" selection-start="656" selection-end="656" vertical-scroll-proportion="-7.296296" vertical-offset="451" max-vertical-offset="1908" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/storage/logs/laravel.log">
@@ -743,79 +796,202 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/RemindersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="611" selection-end="611" vertical-scroll-proportion="-14.0" vertical-offset="162" max-vertical-offset="1566">
-          <folding />
-        </state>
+        <state line="30" column="30" selection-start="611" selection-end="611" vertical-scroll-proportion="-14.0" vertical-offset="162" max-vertical-offset="1566" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="61" selection-start="776" selection-end="776" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
+        <state line="18" column="61" selection-start="776" selection-end="776" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="522" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SessionsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="35" selection-start="802" selection-end="802" vertical-scroll-proportion="-9.62963" vertical-offset="406" max-vertical-offset="1134">
-          <folding>
-            <element signature="e#7#37#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="37" column="35" selection-start="802" selection-end="802" vertical-scroll-proportion="-9.62963" vertical-offset="406" max-vertical-offset="1134" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Larabook/Registration/RegisterUserCommandHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.5617597" vertical-offset="46" max-vertical-offset="666">
-          <folding />
-        </state>
+        <state line="24" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.5617597" vertical-offset="46" max-vertical-offset="666" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/RegistrationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.79187816" vertical-offset="216" max-vertical-offset="954">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="729" selection-end="729" vertical-scroll-proportion="0.79187816" vertical-offset="216" max-vertical-offset="954" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/modules/_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="3" selection-start="762" selection-end="762" vertical-scroll-proportion="0.48730963" vertical-offset="162" max-vertical-offset="1602">
+        <state line="8" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.09475465" vertical-offset="88" max-vertical-offset="702">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/sass/modules/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.6923077" vertical-offset="0" max-vertical-offset="162">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/modules/_status.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="35" selection-start="932" selection-end="932" vertical-scroll-proportion="-2.9230769" vertical-offset="928" max-vertical-offset="1602">
+        <state line="2" column="40" selection-start="77" selection-end="77" vertical-scroll-proportion="0.060913704" vertical-offset="0" max-vertical-offset="591">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/sass/pages/_users.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="113" selection-end="113" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="288">
+        <state line="10" column="1" selection-start="113" selection-end="113" vertical-scroll-proportion="0.30456853" vertical-offset="0" max-vertical-offset="591">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="173" selection-end="173" vertical-scroll-proportion="-1.5365853" vertical-offset="0" max-vertical-offset="558">
+        <state line="7" column="8" selection-start="173" selection-end="173" vertical-scroll-proportion="0.21319798" vertical-offset="0" max-vertical-offset="591">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/sass/modules/_nav.scss">
+    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="165" selection-end="165" vertical-scroll-proportion="0.2862191" vertical-offset="0" max-vertical-offset="702">
+        <state line="18" column="5" selection-start="339" selection-end="339" vertical-scroll-proportion="0.5482234" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_11_14_130554_create_password_reminders_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_11_17_114921_create_comments_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.9086294" vertical-offset="75" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_24_202218_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="30" selection-start="577" selection-end="599" vertical-scroll-proportion="0.74111676" vertical-offset="120" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Users/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="50" selection-start="1786" selection-end="1786" vertical-scroll-proportion="-18.88889" vertical-offset="696" max-vertical-offset="1404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/way/generators/src/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="45" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.5117541" vertical-offset="311" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/way/generators/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.4444444" vertical-offset="39" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="10" selection-start="828" selection-end="828" vertical-scroll-proportion="-12.666667" vertical-offset="324" max-vertical-offset="1026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="0" selection-start="1471" selection-end="1471" vertical-scroll-proportion="-19.88889" vertical-offset="687" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/Status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="41" selection-start="585" selection-end="585" vertical-scroll-proportion="-8.962963" vertical-offset="172" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="22" selection-start="623" selection-end="623" vertical-scroll-proportion="-14.962963" vertical-offset="46" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/FollowsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/LeaveCommentOnStatusCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="24" selection-start="570" selection-end="570" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="62" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-18.296297" vertical-offset="334" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="-10.962963" vertical-offset="64" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/LeaveCommentOnStatusCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="3.2962964" vertical-offset="125" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/StatusesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="74" selection-start="627" selection-end="694" vertical-scroll-proportion="9.333333" vertical-offset="756" max-vertical-offset="2214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/modules/_status.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="21" selection-start="1404" selection-end="1404" vertical-scroll-proportion="-13.777778" vertical-offset="1266" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="44" selection-start="433" selection-end="433" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="558">
+          <folding>
+            <element signature="e#6#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/statuses/partials/comments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="78" selection-start="161" selection-end="161" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/statuses/partials/status.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="772" selection-end="772" vertical-scroll-proportion="0.7319778" vertical-offset="18" max-vertical-offset="594">
           <folding />
         </state>
       </provider>

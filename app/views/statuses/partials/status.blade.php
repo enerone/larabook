@@ -10,3 +10,19 @@
 
     </div>
 </article>
+@if($signedIn)
+    {{ Form::open(['route'=>['comment_path', $status->id], 'class'=>'comments__create-form']) }}
+        {{ Form::hidden('status_id', $status->id) }}
+        <div class="form-group">
+            {{ Form::textarea('body', null, ['class' => 'form-control', 'rows'=> 1]) }}
+        </div>
+
+    {{ Form::close() }}
+@endif
+@unless($status->comments->isEmpty())
+  <div class="comments">
+    @foreach($status->comments as $comment)
+        @include('statuses.partials.comments')
+    @endforeach
+  </div>
+@endunless
